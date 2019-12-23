@@ -11,7 +11,7 @@
 	<title>3days cake's</title>
      <!-- Bootstrap -->
      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-     <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="3dayscake's.css">
      <link href="https://fonts.googleapis.com/css?family=Cormorant+SC&display=swap" rel="stylesheet">
      <!-- fontawesome -->
      <script src="https://kit.fontawesome.com/0a1f271fd9.js" crossorigin="anonymous"></script>
@@ -28,7 +28,7 @@
                     <div class="navbar-collapse collapse" id="navbarSupportedContent" >
                       <ul class="navbar-nav ml-auto">
                         <li class="nav-item active">
-                          <a class="nav-link" href="#" data-scroll-nav="0">TOP <span class="sr-only">(current)</span></a>
+                          <a class="nav-link" href="#TOP" data-scroll-nav="0">TOP <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
                           <a class="nav-link" href="#concept" data-scroll-nav="1">CONCEPT</a>
@@ -77,22 +77,32 @@
                 <span class="sr-only">Next</span>
               </a>
             </div>
+          </div>
             <!-- CONCEPT -->
             <div class="box-container concept" id=concept>
-                      <h2 class="section-title ">CONCEPT</h2>
-                            <p class="section-sub" >お客様が食べたら思わず笑顔がこぼれるようなSWEETSを</p>
-                       <div class="commitment-section">
-                            <h3 class="commitment-title">
-                              commitment
-                            </h3>
-                            <div class="commitment">
-                            <p class="commitment-sentence">
-                              DAYS CAKE'sでは全て契約農家の方から送られてきた無農薬のこだわり抜いた食材を使っています。また、砂糖には白砂糖ではなくミネラルを多く含んだ黒糖を使っています。
-                            </p>
+                            <h2 class="section-title ">CONCEPT</h2>
+                            <div class="section-sub">
+                                  <p>お客様が食べたら思わず笑顔がこぼれるようなSWEETSをお客様が食べたら思わず笑顔がこぼれるようなSWEETSをお客様が食べたら思わず笑顔がこぼれるようなSWEETSをお客様が食べたら思わず笑顔がこぼれるようなSWEETSをお客様が食べたら思わず笑顔がこぼれるようなSWEETSをお客様が食べたら思わず笑顔がこぼれるようなSWEETSをお客様が食べたら思わず笑顔がこぼれるようなSWEETSをお客様が食べたら思わず笑顔がこぼれるようなSWEETSをお客様が食べたら思わず笑顔がこぼれるようなSWEETSをお客様が食べたら思わず笑顔がこぼれるようなSWEETSをお客様が食べたら思わず笑顔がこぼれるようなSWEETSをお客様が食べたら思わず笑顔がこぼれるようなSWEETSをお客様が食べたら思わず笑顔がこぼれるようなSWEETSを</p>
+                            </div>
+            </div>
+            <!--kodawari-->
+            <div class="commitment-section" id="commitment">
+                    <h3 class="commitment-title">
+                      食材のこだわり
+                    </h3>
+                    <div class="container">
+                      <div class="row">
+                        <div class="commitment  col-sm-6 col-12">
+                                <p class="commitment-sentence">
+                                  DAYS CAKE'sでは全て契約農家の方から送られてきた無農薬のこだわり抜いた食材を使っています。また、砂糖には白砂糖ではなくミネラルを多く含んだ黒糖を使っています。DAYS CAKE'sでは全て契約農家の方から送られてきた無農薬のこだわり抜いた食材を使っています。また、砂糖には白砂糖ではなくミネラルを多く含んだ黒糖を使っています。
+                                </p>
                         </div>
-                       </div>
-                  <img class="img-fluid " src="3dayscake's.img/smile.jpg" alt="smile"> 
-           </div>
+                        <div class="col-12  col-sm-4">
+                          <img class="img-fluid commitment-img" src="3dayscake's.img/smile.jpg" alt="smile"> 
+                        </div>
+                    </div>
+                  </div>
+            </div>
             <!-- SEASON -->
             <div class="box-container season " id=season>
                 <h2 class="section-title ">SEASON MENU</h2>
@@ -119,7 +129,7 @@
                           </h4>
                           <p class="money">800円</p>
                         </div> 
-                      <a href="#TOP" class="btn btn-lg btn-dark">MORE</a>  
+                      <a href="#TOP" class="btn btn-lg btn-dark" id="season-btn">MORE</a>  
                   </div>
                 </div>
             </div> 
@@ -148,8 +158,13 @@
                           </h4>
                           <p class="money">450円</p>
                         </div>
-                        <a href="#TOP" class="btn btn-lg btn-dark">MORE</a>
-                  </div>
+                        <a href="" class="btn btn-lg btn-dark" id="try-btn">MORE</a>
+                        <!-- <div class="btn btn-lg btn-dark" id="try-btn">MORE</div> -->
+                        <!-- ためし -->
+                    <!-- <img src="3dayscake's.img/pie.jpg" alt="" id="try"> -->
+                 
+                  <!-- ためし -->
+                      </div>
                 </div>
             </div> 
             <div class="box-container infomation" id=info>
@@ -183,51 +198,54 @@
           </div><!--END main-container 
           <!-- class, action, methodを変更しないでください -->
           <h2 class="section-title text-center" id="form">CONTACT  FORM</h2>
-<form class="formrun box-container" action="https://form.run/api/v1/r/u8jdoiklfuie8wxuy5865bj3" method="post">
-  
-  <!-- ↓自由に要素を追加・編集することができます -->
-  <div>
-    <label>NAME</label>
-    <input name="お名前" type="text">
-  </div>
+          <div class="contact-form">
+           <div class="layerTransparent">
+              <form class="formrun box-container" action="https://form.run/api/v1/r/u8jdoiklfuie8wxuy5865bj3" method="post">
+                
+                <!-- ↓自由に要素を追加・編集することができます -->
+                <div>
+                  <label>Name</label>
+                  <input name="お名前" type="text">
+                </div>
 
-  <div>
-    <label>MAIL ADDRESS[必須]</label>
-    <input name="メールアドレス" type="text" data-formrun-type="email" data-formrun-required>
-    <div data-formrun-show-if-error="メールアドレス"></div>
-  </div>
+                <div>
+                  <label>Mail adress</label>
+                  <input name="メールアドレス" type="text" data-formrun-type="email" data-formrun-required>
+                  <div data-formrun-show-if-error="メールアドレス"></div>
+                </div>
 
-  <div>
-    <label>CONACT [必須]</label>
-    <textarea name="お問い合わせ" data-formrun-required></textarea>
-    <div data-formrun-show-if-error="お問い合わせ"></div>
-  </div>
+                <div>
+                  <label>Contact </label>
+                  <textarea name="お問い合わせ" data-formrun-required></textarea>
+                  <div data-formrun-show-if-error="お問い合わせ"></div>
+                </div>
 
-  <div>
-    <label>個人情報利用同意 [必須]</label>
-    <input type="checkbox" name="個人情報利用同意" data-formrun-required>
-    <div data-formrun-show-if-error="個人情報利用同意">同意してください</div>
-  </div>
+                <div>
+                  <label class="parsonal">個人情報利用同意 </label>
+                  <input type="checkbox" name="個人情報利用同意" data-formrun-required>
+                  <div data-formrun-show-if-error="個人情報利用同意">同意してください</div>
+                </div>
 
-  <!-- ボット投稿をブロックするためのタグ -->
-  <div class="_formrun_gotcha">
-    <style media="screen">._formrun_gotcha {position:absolute!important;height:1px;width:1px;overflow:hidden;}</style>
-    <label for="_formrun_gotcha">If you are a human, ignore this field</label>
-    <input type="text" name="_formrun_gotcha" id="_formrun_gotcha" tabindex="-1">
-  </div>
+                <!-- ボット投稿をブロックするためのタグ -->
+                <div class="_formrun_gotcha">
+                  <style media="screen">._formrun_gotcha {position:absolute!important;height:1px;width:1px;overflow:hidden;}</style>
+                  <label for="_formrun_gotcha">If you are a human, ignore this field</label>
+                  <input type="text" name="_formrun_gotcha" id="_formrun_gotcha" tabindex="-1">
+                </div>
 
-  <button type="submit" data-formrun-error-text="未入力の項目があります" data-formrun-submitting-text="送信中...">SUBMIT</button>
-</form>
-<div class="social-icon">
-<a href="#" ><i class="fab fa-twitter"></i></a>
-<a href="#"><i class="fab fa-instagram"></i></a>
-</div>
-                    
-     <footer>
-       <div class="footer-container">
-        <p class=" footer-menu text-center">&copy;DAYS CAKE's</p> 
-       </div>
-
+                <button type="submit" data-formrun-error-text="未入力の項目があります" data-formrun-submitting-text="送信中...">SUBMIT</button>
+              </form>
+              <div class="social-icon">
+              <a href="#" ><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              </div>
+            </div>
+          </div>                      
+              <footer>
+                <div class="footer-container">
+                  <p class=" footer-menu text-center">&copy;DAYS CAKE's</p> 
+                </div>
+      
 
      </footer>
 
@@ -240,7 +258,9 @@
       <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>     
-  </body>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+      <script src="3dayscake's.script.js"></script>
+    </body>
 
 </html>
 
