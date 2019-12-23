@@ -1,3 +1,8 @@
+body{
+   box-sizing:border-box;
+   /* background-color: #; */
+}
+
 .box-container{
    max-width: 80%;
    margin: 0 auto;
@@ -58,30 +63,77 @@ h3 {
    font-size: 150px;
    color: #fff;
    font-family: 'Cormorant SC', serif;
+ 
    }
-.commitment-section{
-   background-color: #f6f6f6;
+.section-sub{
+   width:50%;
+   margin:0 auto;
 }
- .commitment-sentence{
+.commitment-section{
+   /* background-color: #f6f6f6; */
+   text-align: center;
+   margin:0 auto;
+   margin-top: 150px;
+   margin-bottom: 150px;
+   /* display:none; */
+}
+.fade_on{
+   opacity:1.0;
+   -webkit-transition: all 1s;;
+   -moz-transition: all 1s;
+   -o-transition: all 1s;
+   -ms-transition: all 1s;
+   transition: all 1s;
+}
+.fade_off {
+       opacity: 0;
+       -webkit-transition: all 1s;;
+       -moz-transition: all 1s;
+       -o-transition: all 1s;
+       -ms-transition: all 1s;
+       transition: all 1s;
+   }
+   
+.commitment-title{
+ margin-bottom:80px;
+}
+.commitment{
+   width: 100%;
+   margin: 0 auto;
+   text-align: center;
+}
+
+ /* .commitment-sentence{
     padding: 20px 0px;
-    font-size: 5px;
+    font-size: 16px;
+    width:40%;
+    display: inline-block;
  }
- .commitment{
-    width: 70%;
-    margin: 0 auto;
-    text-align: center;
- }
+  */
+ /* .commitment-img{
+   width:30%;
+   height:auto;
+ } */
  h4 {
     margin-top: 30px!important;
     font-size: 25px;
     font-family: 'M PLUS 1p', sans-serif;
+    
  }
+ 
  .season, .grand p{
     font-weight: bold;
     font-size: 20px;
  }
- 
-
+ .season img{
+    border-radius: 25%;
+ }
+ .grand img{
+   border-radius: 25%;
+}
+#try{
+display:none;
+}
 .btn{
     padding:10px 80px;
     display: inline-box;
@@ -100,7 +152,9 @@ h3 {
 }
 .formrun{
    text-align: center;
-   font-family: 'Cormorant SC', serif;
+   font-family: 'Cormorant SC', serif; 
+   width:100%;
+   
 }
 label{
   display:block;
@@ -113,7 +167,7 @@ input{
    width: 50%;
 }
 textarea{
-   width: 100%;
+   width: 50%;
 }
 button{
    background-color: #000;
@@ -136,6 +190,9 @@ footer{
 .footer-menu{
    padding-top: 40px;
 }
+.parsonal{
+ font-size: 15px;
+}
 .social-icon{
    width:30%;
    margin: 0 auto;
@@ -149,9 +206,32 @@ footer{
    margin: 0 auto;
    color: #000;
 }
+.contact-form{
+   position:relative;
+}
+.contact-form{
+   background:url("3dayscake's.img/background.jpg" );
+   background-size: cover;
+   /* padding-top: 10%; */
+}
+.layerTransparent{
+   background-color: rgba(255,255,255,0.5);
+   height:100%;
+   padding-top: 10%;
+   
+}
+.formrun {
+   background-color:#000;
+   border-radius:10%;
+   width:60%;
+  
+}
+label{
+ color: #fff;
+}
 
 i:hover{
-   color: aqua;
+   color: rgb(243, 189, 222);
 }
    @media(max-width:2000px){
       .top-title{
@@ -161,7 +241,7 @@ i:hover{
         font-size: 60px;
      }
      .commitment-title{
-      font-size: 41px;
+      font-size: 25px;
    }
    
    .concept p{
@@ -179,7 +259,7 @@ i:hover{
       font-size: 15px;
    }
    .commitment-title{
-      font-size: 35px;
+      font-size: 15px;
    }
      }
      @media(max-width:480px){
@@ -193,7 +273,11 @@ i:hover{
       font-size: 15px;
    }  
      .commitment-title{
-        font-size: 25px;
+        font-size: 10px;
+     }
+     .commitment-img{
+        width:auto;
+        height: auto;
      }
      }
      
